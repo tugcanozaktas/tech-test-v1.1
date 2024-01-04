@@ -3,7 +3,8 @@ import { render } from '@testing-library/react';
 import Search from '../components/Search.js';
 
 describe("Search", () => {
-    const { asFragment } = render(<Search />);
+    const setSearchResults = () => {};
+    const { asFragment } = render(<Search setSearchResults={setSearchResults} />);
 
     it("renders correctly", () =>{
         expect(asFragment()).toMatchSnapshot();
