@@ -9,3 +9,10 @@
   height: 400px;
   width: 800px;
 }
+
+@media screen and (max-width: 800px) {
+  .nasa-logo{
+      width: 350px;
+      height: 250px;
+  }
+}

@@ -22,3 +22,12 @@
     border: 1px solid black;
     border-right: 0;
 }
+
+@media screen and (max-width: 800px) {
+    .search-input{
+        width: 180px;
+    }
+    .search-btn{
+        width: 75px;
+    }
+}
