@@ -28,6 +28,9 @@ exports[`App renders correctly 1`] = `
         </button>
       </form>
     </div>
+    <p>
+      Search...
+    </p>
   </div>
 </DocumentFragment>
 `;
